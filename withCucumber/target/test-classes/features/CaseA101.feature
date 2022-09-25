@@ -13,4 +13,5 @@ Feature: a101_test
     And Mail ekrani gelir
     Then Sonrasinda adres ekrani gelir
     And Adres olustur dedikten sonra odeme ekrani gelir
-    Then Siparisi tamamla butonuna tiklayarak, odeme ekranina gidildigi ,dogru ekrana yonlendiklerini kontrol edecekler
+    Then Siparisi tamamla butonuna tiklayarak, odeme ekranina gidildigi ,dogru ekrana yonlendiklerini kontrol eder
+    And Kullanici sayfayi kapatir
