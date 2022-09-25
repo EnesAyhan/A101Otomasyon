@@ -40,6 +40,9 @@ public class ReusableMethods {
         jse.executeScript("arguments[0].click();", element);
     }
 
+
+
+
     //   HARD WAIT WITH THREAD.SLEEP
 //   waitFor(5);  => waits for 5 second
     public static void waitFor(int sec) {
@@ -49,6 +52,8 @@ public class ReusableMethods {
             e.printStackTrace();
         }
     }
+
+
 
     public static void waitForPageToLoad(long timeout) {
         ExpectedCondition<Boolean> expectation = new ExpectedCondition<Boolean>() {

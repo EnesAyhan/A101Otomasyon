@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="34.242">
-    <testcase classname="a101_test" name="Uye kaydı olusturmadan uctan_uca_odeme_test" time="34.059">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="29.562">
+    <testcase classname="a101_test" name="Uye kaydı olusturmadan uctan_uca_odeme_test" time="29.45">
         <system-out>
             <![CDATA[Given Kullanici A101Url sitesine gider......................................passed
 When Giyim_aksesuar_kadinIcGiyim_dizaltiCorap bolumune girer................passed
@@ -12,7 +12,8 @@ Then Uye olmadan devam et butonuna tiklanir.................................pass
 And Mail ekrani gelir.......................................................passed
 Then Sonrasinda adres ekrani gelir..........................................passed
 And Adres olustur dedikten sonra odeme ekrani gelir.........................passed
-Then Siparisi tamamla butonuna tiklayarak, odeme ekranina gidildigi ,dogru ekrana yonlendiklerini kontrol edecekler.passed
+Then Siparisi tamamla butonuna tiklayarak, odeme ekranina gidildigi ,dogru ekrana yonlendiklerini kontrol eder.passed
+And Kullanici sayfayi kapatir...............................................passed
 ]]>
         </system-out>
     </testcase>
